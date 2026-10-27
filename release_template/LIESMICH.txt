@@ -1,0 +1,102 @@
+Shadow Man Remastered - Koop-Mod
+================================
+
+Bis zu vier Spieler spielen gemeinsam ueber Steam (keine Portfreigabe noetig):
+gemeinsame Gegner und Bosse, gemeinsamer Fortschritt, Tueren, Schalter,
+Sargtore, Cutscenes und Pickups sind bei allen gleich.
+
+Installation (alle Spieler)
+----------------------------
+1. In Steam: Rechtsklick auf "Shadow Man Remastered" -> Verwalten -> Lokale Dateien durchsuchen.
+2. Den gesamten Inhalt dieser ZIP-Datei in diesen Ordner kopieren
+   (Install.bat, Uninstall.bat und der Ordner SMCoop).
+3. Install.bat doppelklicken.
+Alle brauchen GENAU dieselbe Version des Mods.
+
+Spielen
+-------
+Host (wessen Spielstand gespielt wird):
+  1. Shadow Man starten, im Hauptmenue "Koop-Lobby" -> "Lobby erstellen".
+  2. "Freunde einladen (Steam)" -> bis zu drei Freunde auswaehlen.
+  3. Sobald alle unter "Mitspieler" stehen: zurueck und den Spielstand laden.
+
+Gast:
+  1. Die Steam-Einladung annehmen (Shadow Man startet dann ggf. von selbst)
+     und im Menue warten.
+  2. Laedt der Host seinen Spielstand, erscheint beim Gast - egal in welchem
+     Menue er ist - die Frage "Der Host spielt - womit willst du beitreten?":
+       - "Eigenen Spielstand laden": den eigenen (zusammen gespeicherten)
+         Spielstand waehlen - gesehene Cutscenes und Bereiche bleiben erhalten.
+       - "Neues Abenteuer": wie frueher, ohne eigenen Spielstand.
+     Danach wird der Gast einmal zum Host gesetzt. Was der Host hat und dem
+     Gast fehlt (Waffen, Gads, Seelen, Fortschritt), bekommt der Gast dazu.
+     Tipp: am Ende einer Runde speichern alle, dann passt es beim naechsten Mal.
+  Spiel abgestuerzt? Neu starten und in der Steam-Freundesliste beim Host auf
+  "Spiel beitreten" klicken - oder der Host laedt neu ein: Pausenmenue ->
+  "Freunde einladen (Steam)".
+
+Danach ist jeder frei. Zu einem anderen Spieler gezogen wird man nur, wenn
+er eine Cutscene oder einen Bosskampf ausloest.
+
+Einstellungen (Hauptmenue -> Koop-Lobby)
+----------------------------------------
+- Gegner-HP je Mitspieler (0-200 %, Klick = +10 %; nur der Host): jeder Gast gibt
+  allen Gegnern so viel mehr Leben. Beispiel 50 % zu dritt = doppelte HP.
+- Geteilte HP an/aus (nur der Host): ein gemeinsamer Lebensbalken - wird einer
+  getroffen, verlieren alle Leben; heilt sich einer, werden alle geheilt.
+  Stirbt einer, sterben alle.
+- Namen anzeigen an/aus (jeder fuer sich): Name, Entfernung und Pfeil ueber den
+  Mitspielern, auch durch Waende; Pfeil am Bildrand, wenn einer ausserhalb des
+  Bildes ist; oben steht, wer in einem anderen Level ist.
+  Farben: Host gruen, Spieler 2 rot, Spieler 3 blau, Spieler 4 lila.
+
+Teleport
+--------
+Pausenmenue -> "Zu Mitspieler teleportieren" -> Mitspieler waehlen: man landet
+bei ihm, auch wenn er in einem anderen Level ist (das Level wird gewechselt).
+
+Schiebebloecke und Calabash
+---------------------------
+Schiebt einer einen Block, rutscht er bei allen mit und ist danach bei allen
+"fertig" (wie im Spiel: jeder Block nur einmal). Spielstaende, in denen ein Block
+schon verschoben, aber noch anfassbar gespeichert wurde, werden beim Laden
+repariert.
+Die Calabash sehen alle: das Legen, das Feuer und die Explosion - die trifft
+jeden, der zu nah steht. Zerstoerte Calabash-Platten sind bei allen weg.
+
+Aufzuege und Mitfahr-Teile
+-------------------------
+Wer im Aufzug (bzw. im Kaefig, auf dem Ring) steht, faehrt mit - auch wenn ein
+Mitspieler ihn startet. Wer woanders ist, bleibt stehen (frueher sprang man mit
+und fiel durch die Welt). Sinkende Saeulen in der Lava und Bretter, die
+einbrechen, reagieren bei allen, wenn einer draufsteht. Fallen (Klingen,
+Haemmer, hin- und herfahrende Statuen) laufen bei jedem im eigenen Takt.
+Raetsel (Trommeln, Schalter, Flammentueren, Vorhaengeschloss-Tueren ...): was
+einer loest oder oeffnet, ist auch beim anderen geloest bzw. offen.
+
+Tod
+---
+Jeder stirbt fuer sich, wie im normalen Spiel - auch im Bosskampf. Nur mit
+"Geteilte HP" oder im Hardcore-Modus sterben alle gemeinsam. Nach einem Tod
+landet man dort, wo das Spiel einen hinsetzt - kein Sprung zum Host. Schnell
+zurueck zu den anderen: Pausenmenue -> "Zu Mitspieler teleportieren".
+
+Hardcore
+--------
+"Neues Abenteuer" -> "Hardcore" oder "Hardcore Der Horror": Stirbt einer -
+egal wo -, sterben alle und die Spielstaende dieses Abenteuers werden
+ENDGUELTIG GELOESCHT (auch der Schnellspeicher). Danach geht es zurueck ins
+Hauptmenue.
+
+Sprache: Die Mod spricht Deutsch, wenn das Spiel auf Deutsch eingestellt ist,
+sonst Englisch (auch das Protokoll).
+
+Neben dem Spiel geht ein Fenster "SMCoop" auf - das ist das Protokoll des
+Mods (auch in smcoop_log.txt im Spielordner, das vom vorigen Start in
+smcoop_log_prev.txt). Nach einem Absturz bitte beide Dateien und CRASHLOG.TXT
+aus dem Spielordner schicken.
+
+Deinstallation
+--------------
+Uninstall.bat doppelklicken. Alternativ in Steam: Eigenschaften ->
+Installierte Dateien -> Dateien auf Fehler ueberpruefen.
